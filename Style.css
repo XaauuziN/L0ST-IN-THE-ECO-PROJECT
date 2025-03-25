@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url(Style/Home.css);
 @import url(Style/Privacy.css);
 @import url(Style/WhoUS.css);
+@import url(Style/Conclusão.css);
+@import url(Style/Contato.css);
+@import url(Style/Desenvolvimento.css);
+@import url(Style/Download.css);
+@import url(Style/Equipe.css);
+@import url(Style/OQRPG.css);
+@import url(Style/Tema.css);
+
 :root{
 
     /* Paleta de Cores */
@@ -12,10 +21,13 @@
     
     /* Fontes */
         --fonte-primaria:'Micro 5';
+        --fonte-secundaria:'Jersey 10' ;
     }
     
     *{
-        font-family: var(--fonte-primaria);
+        font-family: var(--fonte-secundaria);
+        scrollbar-width: none; /* Para Firefox */
+        -ms-overflow-style: none; /* Para IE e Edge */
     }
     
     
