@@ -25,6 +25,8 @@
     }
   }
 
+
+
 .Titulo{
     font-size: 3vw;
     font-weight: lighter;
@@ -195,9 +197,9 @@
 }
 
 /* Botão Animado */
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .wrapper {
     display: flex;
@@ -208,6 +210,7 @@
 
 /* From Uiverse.io by Sergestra */ 
 .contato{
+    /* margin-top: 5em; */
     outline: 0;
     border: 0;
     display: flex;

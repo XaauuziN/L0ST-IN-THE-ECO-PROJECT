@@ -8,41 +8,13 @@
     <link rel="stylesheet" href="../Style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="icon" type="png" href="../IMG/Logo/Logo_1.jpg">
-    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
 <body>
     <!-- Header -->
 <section class="Container_Header">
     <header>
-
-        <div class="navegacao">
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Download.html">Download</a></li>
-                    <li class="caixa-menu">
-                        <a style="cursor: pointer;">Sobre o Projeto</a>
-                        <div class="menu-item">
-                            <a href="OQRPG.html">O que é um RPG?</a>
-                            <a href="Tema.html">Sobre o tema</a>
-                            <a href="Desenvolvimento.html">Desenvolvimento</a>
-                            <a href="Conclusão.html">Conclusão</a>
-                        </div>
-                    </li>
-                    <li class="caixa-menu">
-                        <a style="cursor: pointer;">Sobre nós</a>
-                        <div class="menu-item">
-                            <a href="https://www.cps.sp.gov.br/cursos-etec/informatica/" target="_blank">Sobre o Curso</a>
-                            <a href="Equipe.html">Equipe</a>
-                            <a href="Privacy.html">Política e Privacidade</a>
-                        </div>
-                    </li>
-                    <li><a href="Contato.html" target="_blank">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-
         <!-- Ícone do menu mobile -->
         <div class="mobile-menu-icon" onclick="toggleMenu()">
             ☰
@@ -51,14 +23,22 @@
         <!-- Menu lateral para mobile -->
         <div class="mobile-menu">
             <ul>
-                <li><i class="fa-solid fa-house"></i><a href="Home.html">Home</a></li>
-                <li><i class="fa-solid fa-download"></i><a href="Download.html">Download</a></li>
-                <li><a href="OQRPG.html"><i class="fa-solid fa-question"></i>O que é um RPG?</a></li>
-                <li><a href="Tema.html"><i class="fa-solid fa-book-open"></i>Sobre o tema</a></li>
-                <li><a href="Desenvolvimento.html"><i class="fa-solid fa-code"></i>Desenvolvimento</a></li>
-                <li><a href="Equipe.html"><i class="fa-solid fa-people-group"></i>Equipe</a></li>
-                <li><a href="Contato.html"><i class="fa-solid fa-phone-volume"></i>Contato</a></li>
-                <li><a href="Privacy.html"><i class="fa-solid fa-circle-info"></i>Política de Privacidade</a></li>
+                <li><i class="fa-solid fa-house"></i>
+                    <a href="Home.html">Home</a></li>
+                <li><i class="fa-solid fa-download"></i>
+                    <a href="Download.html">Download</a></li>
+                <li><i class="fa-solid fa-gamepad"></i>
+                    <a href="OQRPG.html">O que é um RPG?</a></li>
+                <li><i class="fa-solid fa-book-open"></i>
+                    <a href="Tema.html">Sobre o tema</a></li>
+                <li><i class="fa-solid fa-code"></i>
+                    <a href="Desenvolvimento.html">Desenvolvimento</a></li>
+                <li><i class="fa-solid fa-people-group"></i>
+                    <a href="Equipe.html">Equipe</a></li>
+                <li><i class="fa-solid fa-phone-volume"></i>
+                    <a href="Contato.html">Contato</a></li>
+                <li><i class="fa-solid fa-circle-info"></i>
+                    <a href="Privacy.html">Política de Privacidade</a></li>
             </ul>
         </div>
         <script src="../Script/Menu.js"></script>
@@ -70,31 +50,41 @@
         <div class="Dev_Site section">
             <h1 class="title_des">Desenvolvimento do Site</h1>
             <p class="text_des">
-                O desenvolvimento do site foi realizado com base em ideias e inspirações de diversas pessoas, trabalhos e outros sites, por meio de uma "pesquisa de campo". Foram horas e horas explorando sites de empresas e de outros desenvolvedores. A principal inspiração foi criar um design semelhante aos sites dos anos 2000, o que, à primeira vista, foi alcançado.
-
-Com o tempo, novas ideias surgiram, e o responsável decidiu fazer ajustes até chegar à versão atual. A pesquisa de campo foi refeita, contando com as mesmas pessoas e também com novas avaliações. As opiniões recebidas foram tanto positivas quanto construtivas, trazendo sugestões e novas perspectivas.
-
-Assim, combinando as sugestões de terceiros com a criatividade do desenvolvedor, surgiu a página LOST IN THE ECO.</p>
+                O desenvolvimento do site foi realizado em torno de pesquisas e inspiraçoes, tanto quanto de pessoas, quanto de sites, Desenvolvedores e do próprio desenvolvedor do site. A primeira vista, a tentativa foi de fazer algo que relembrasse os antigos sites dos anos 2000, 
+mas a ideia foi descartada devido que houve muitos feedbacks negativos sobre, então foi decidido fazer algo que agradesse o maximo de pessoas visualmente, e foi gerado uma nova interface, com novos designs e graficos mais atuais. Utilizando os conhecimentos dos professores
+da etec, foram feitas novos ajustes. Mas ainda sim faltava algo, então foi resolvido que o site seria esteticamente dinamico, alguns backgrounds foram animados, outros foram colocados com certa transparencia para que entregasse uma estetica visualmente "deslumbrante".
+Juntando as ideias, feedbacks de alunos professores e profissionais da area o DEV responsavel pelo site conseguiu concretizar a ideia e gerou o site:
+            </p>
+            <h1 class="text_lost">L0ST IN THE ECO</h1>
         </div>
 
         <div class="Dev_Ficha section">
-            <h1 class="title_des">Desenvolvimento da Ficha Digital</h1>
+            <h1 class="title_des">Integração de Ferramentas Digitais no RPG de Mesa</h1>
             <p class="text_des">
-                A ficha digital foi criada para melhorar a usabilidade, proporcionando um acesso mais rápido e intuitivo às informações.
+                Com os avanços tecnológicos, a incorporação de ferramentas digitais nas sessões de RPG de mesa tem se tornado cada vez mais comum. Aplicativos e plataformas online oferecem recursos que facilitam
+                a gestão de fichas de personagens, rolagem de dados, ambientação sonora e visual, entre outros aspectos. Essas ferramentas não apenas agilizam processos logísticos, mas também enriquecem a
+                experiência imersiva dos jogadores. A integração de tecnologias de inteligência artificial também tem ganhado destaque, com ferramentas que geram imagens e vídeos personalizados, aprimorando a
+                ambientação e a personalização das aventuras. Esses recursos tecnológicos ampliam as possibilidades criativas e colaborativas nas sessões de RPG, tornando-as mais dinâmicas e envolventes para
+                todos os participantes. Em outras plataformas, permitem que jogadores de diferentes localidades participem de sessões online, oferecendo recursos como mapas interativos e rolagens de dados automatizadas.
+                Além disso, softwares de criação de mapas e gerenciadores de campanhas auxiliam mestres de jogo na elaboração de cenários detalhados e na organização de informações essenciais para a narrativa.
+
             </p>
         </div>
 
-        <div class="Dev_TCC section">
-            <h1 class="title_des">Desenvolvimento do TCC</h1>
+        <div class="Dev_Ficha section">
+            <h1 class="title_des">Aplicativos de Ficha Virtual para RPG</h1>
             <p class="text_des">
-                O TCC seguiu um processo de pesquisa detalhado, refinado com base em feedbacks e sugestões ao longo do tempo.
+                Aplicativos de ficha virtual surgem como soluções práticas para a gestão de personagens em jogos de RPG de mesa. Eles permitem que jogadores e mestres acessem e atualizem informações de forma rápida e organizada, reduzindo o uso de papel e minimizando erros manuais. Além disso, muitos desses aplicativos oferecem funcionalidades adicionais, como cálculo automático de atributos, registro de histórico de ações e integração com outras ferramentas digitais. 
+
+A implementação de um aplicativo de ficha virtual específico para um cenário cyberpunk busca alinhar a temática futurista do jogo com as tecnologias utilizadas, proporcionando uma experiência coesa e imersiva. Ao desenvolver tal aplicativo, é essencial considerar aspectos como usabilidade, acessibilidade e compatibilidade com diferentes dispositivos, garantindo que a ferramenta atenda às necessidades dos usuários e enriqueça a dinâmica do jogo. 
+
+Em suma, a combinação de RPG de mesa e tecnologias digitais apresenta um campo fértil para inovações educacionais e de entretenimento, potencializando os benefícios já reconhecidos desses jogos e abrindo novas possibilidades para o desenvolvimento de habilidades e conhecimentos. 
+
+
             </p>
         </div>
     </div>
     <script src="../Script/Desenvolvimento.js"></script>
 </section>
-
-
-
 </body>
 </html>
